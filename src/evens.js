@@ -5,7 +5,7 @@ class Evens{
     even(){
         let ans = 0;
         for(let i = 0; i<this.num.length; i++){
-            if(num[i] % 2 === 0){
+            if(this.num[i] % 2 === 0){
                 ans++;
             }
         }
