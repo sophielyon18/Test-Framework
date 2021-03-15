@@ -32,5 +32,9 @@ check(test.even(), 0);
 
 test = new Evens('Hi');
 
-check(test.even(), 0);
+check(test.even(), Error('Needs to be an array of numbers'));
+
+test = new Evens(123);
+
+check(test.even(), Error('Needs to be an array of numbers'));
 console.log(`Number of fails: ${fail}. Number of passes: ${pass}.`)

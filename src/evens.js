@@ -14,7 +14,7 @@ class Evens{
             return ans;
         }
         else{
-            return 0;
+            throw new Error('Needs to be an array of numbers');
         }
     }
     checkIfArray(check){
