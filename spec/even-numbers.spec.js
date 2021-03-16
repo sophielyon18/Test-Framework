@@ -26,4 +26,4 @@ if(recieved === expected) {
 // console.log(`Number of fails: ${fail}. Number of passes: ${pass}.`)
 
 module.exports = assertEquals;
-export {pass, fail};
+
