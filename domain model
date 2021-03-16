@@ -1,0 +1,7 @@
+Object: Bagel_Order
+
+Message: order, remove
+
+properties: basket 
+
+Output: string 
