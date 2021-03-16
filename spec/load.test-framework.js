@@ -1,5 +1,7 @@
 const Evens = require('../src/even-numbers');
 const assertEquals = require('./even-numbers.spec')
+const  pass = require('../spec/even-numbers.spec')
+const fail = require('../spec/even-numbers.spec')
 
 const evens = new Evens([])
 
@@ -18,3 +20,4 @@ assertEquals(random.even(), 'Is not an array')
 assertEquals(odds.even(), 0)
 assertEquals(evens.even(), 0) 
 
+console.log(`Number of fails: ${fail}. Number of passes: ${pass}.`)
